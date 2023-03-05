@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASE-10</title>
+</head>
+
+<body>
+    <script type="text/javaScript">
+        let edad;
+        edad = prompt ("Ingrese su Edad:");
+        let genero;
+        genero = prompt ("¿Eres Hombre o Mujer? - \nUtilice minusculas por favor.");
+
+        document.write("<b>EL GENERO ES: " + genero);
+        document.write("<b><br>LA EDAD ES: " + edad);
+
+        if ((genero == "hombre" && edad >= 18) || (genero == "mujer" && edad >= 20))
+          {
+            alert ("Puedes Entrar, eres mayor de edad.");
+          } 
+        else 
+          {
+            alert ("No puedes entrar, eres menor de edad.");
+          }
+    </script>
+</body>
+
+</html>
